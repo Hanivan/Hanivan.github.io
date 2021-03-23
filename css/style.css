@@ -52,6 +52,7 @@ table {
 	width: 150px;
 	border: 1px solid #aaa;
 	border-radius: 3px;
+	padding-top: 1.5em;
 }
 
 .link {
@@ -63,7 +64,7 @@ table {
 .link ul {
 	padding-top: 1em;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
 	gap: 5px;
 }
 
