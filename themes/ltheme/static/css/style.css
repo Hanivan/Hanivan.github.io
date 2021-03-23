@@ -48,7 +48,10 @@ table {
 }
 
 /* My CSS */
+.me {
+	background-color: #aaa;
+}
 
-div.me div.photo img {
+.photo img {
 	width: 150px;
 }
