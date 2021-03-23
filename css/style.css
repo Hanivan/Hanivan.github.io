@@ -48,10 +48,23 @@ table {
 }
 
 /* My CSS */
-.container {
-	background-color: #aaa;
+.me .photo img {
+	width: 150px;
 }
 
-.photo img {
-	width: 150px;
+.link ul {
+	display: grid;
+}
+
+.link ul li {
+	display: block;
+	background-color: blueviolet;
+	color: white;
+}
+
+.link ul li a {
+	display: block;
+	color: white;
+	font-size: .9em;
+	text-align: center;
 }
