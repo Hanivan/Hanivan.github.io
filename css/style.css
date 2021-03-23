@@ -50,6 +50,8 @@ table {
 /* My CSS */
 .me .photo img {
 	width: 150px;
+	border: 1px solid #aaa;
+	border-radius: 3px;
 }
 
 .link {
