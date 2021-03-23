@@ -48,3 +48,7 @@ table {
 }
 
 /* My CSS */
+
+div.me .photo img {
+	width: 150px;
+}
