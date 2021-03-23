@@ -48,6 +48,11 @@ table {
 }
 
 /* My CSS */
+.container {
+	width: 1024px;
+	margin: auto;
+}
+
 .me {
 	padding-top: 1.5em;
 }
@@ -58,20 +63,20 @@ table {
 	border-radius: 3px;
 }
 
-.link {
+.menu {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
 }
 
-.link ul {
+.menu ul {
 	padding-top: 1em;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 	gap: 5px;
 }
 
-.link ul li a {
+.menu ul li a {
 	display: block;
 	background-color: blueviolet;
 	color: white;
