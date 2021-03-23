@@ -1,6 +1,6 @@
 baseURL = "https://hanivan.github.io/"
 languageCode = "id-ID"
-title = "Lintas Catatan"
+title = "Nip's Journey"
 theme = "ltheme"
 summaryLength = 25
 paginate = 7
