@@ -65,7 +65,7 @@ table {
 
 .menu {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr .5fr;
 	align-items: center;
 }
 
@@ -86,3 +86,35 @@ table {
 	font-size: .9em;
 	text-align: center;
 }
+
+/* Hamburger Menu */
+.menu-toggle {
+	display: none;
+	flex-direction: column;
+	height: 20px;
+	justify-content: space-between;
+	position: relative;
+	z-index: 9999;
+}
+
+.menu-toggle input {
+	position: absolute;
+	width: 40px;
+	height: 28px;
+	left: -6px;
+	top: -3px;
+	opacity: 0;
+	cursor: pointer;
+	z-index: 9999;
+}
+
+.menu-toggle span {
+	display: block;
+	width: 28px;
+	height: 3px;
+	background-color: blueviolet;
+	border-radius: 3px;
+	transform: .5s;
+}
+
+/* Animation Menu */
