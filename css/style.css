@@ -53,7 +53,7 @@ table {
 }
 
 .link ul {
-	display: grid;
+	display: inline-block;
 }
 
 .link ul li {
