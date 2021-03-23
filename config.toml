@@ -1,0 +1,9 @@
+baseURL = "https://hanivan.github.io/"
+languageCode = "id-ID"
+title = "Nip's Journey"
+theme = "ltheme"
+summaryLength = 25
+paginate = 7
+
+[params]
+	Description = "A place where what will later be called an online book"
