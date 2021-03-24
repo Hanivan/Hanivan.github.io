@@ -65,7 +65,7 @@ table {
 
 .menu {
 	display: grid;
-	grid-template-columns: 1fr .5fr;
+	grid-template-columns: 1fr 2fr;
 	align-items: center;
 }
 
@@ -117,4 +117,22 @@ table {
 	transform: .5s;
 }
 
-/* Animation Menu */
+/* Footer */
+.footer {
+	height: 120px;
+	background-color: #aaa;
+}
+
+.footer ul {
+	display: inline-block;
+}
+
+.footer ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: blueviolet;
+	font-size: .9em;
+	text-align: center;
+	padding: 5px;
+	text-transform: uppercase;
+}
