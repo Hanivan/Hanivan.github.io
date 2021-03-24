@@ -145,12 +145,15 @@ table {
 }
 
 .footer ul.img-footer {
-	background-color: #aaa;
-	padding-top: 5px;
-} 
+	background-color: #eaeaea;
+	top: 8%;
+	left: 720px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 15px;
+}
 
 .footer .img-footer img {
 	width: 120px;
 	border: 1px solid #eaeaea;
-	border-radius: 3px;
 }
