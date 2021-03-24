@@ -146,11 +146,11 @@ table {
 
 .footer ul.img-footer {
 	background-color: #eaeaea;
-	top: 8%;
+	top: 3%;
 	left: 720px;
-    text-align: center;
-    border-radius: 3px;
-    padding: 15px;
+	text-align: center;
+	border-radius: 3px;
+	padding: 15px;
 }
 
 .footer .img-footer img {
