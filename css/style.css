@@ -121,18 +121,25 @@ table {
 .footer {
 	height: 120px;
 	background-color: #aaa;
+	position: relative;
 }
 
 .footer ul {
+	position: absolute;
+	top: 38%;
+	left: 20px;
+}
+
+.footer ul li {
 	display: inline-block;
+	background-color: white;
+	padding: 2.5px;
 }
 
 .footer ul li a {
-	display: inline-block;
 	text-decoration: none;
 	color: blueviolet;
 	font-size: .9em;
-	text-align: center;
 	padding: 5px;
 	text-transform: uppercase;
 }
