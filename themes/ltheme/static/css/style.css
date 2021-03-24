@@ -146,8 +146,8 @@ table {
 
 .footer ul.img-footer {
 	background-color: #eaeaea;
-	top: 3%;
-	left: 720px;
+	top: 4%;
+	left: 825px;
 	text-align: center;
 	border-radius: 3px;
 	padding: 15px;
@@ -156,4 +156,8 @@ table {
 .footer .img-footer img {
 	width: 120px;
 	border: 1px solid #eaeaea;
+}
+
+.footer .img-footer p {
+	font-size: .6em;
 }
