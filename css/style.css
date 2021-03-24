@@ -119,8 +119,8 @@ table {
 
 /* Footer */
 .footer {
-	height: 120px;
-	background-color: #aaa;
+	height: 200px;
+	background-color: #dedede;
 	position: relative;
 }
 
@@ -142,4 +142,15 @@ table {
 	font-size: .9em;
 	padding: 5px;
 	text-transform: uppercase;
+}
+
+.footer ul.img-footer {
+	background-color: #aaa;
+	padding-top: 5px;
+} 
+
+.footer .img-footer img {
+	width: 120px;
+	border: 1px solid #eaeaea;
+	border-radius: 3px;
 }
